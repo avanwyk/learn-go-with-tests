@@ -42,4 +42,8 @@ func TestHello(t *testing.T) {
 		expected := "Goeiedag, Pieter"
 		assertCorrectMessage(t, expected, actual)
 	})
+
+	t.Run("should run main", func(t *testing.T) {
+		main()
+	})
 }
