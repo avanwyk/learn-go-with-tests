@@ -1,4 +1,4 @@
-package wallet
+package pointers_errors
 
 import (
 	"errors"
